@@ -1,0 +1,69 @@
+{
+  "dataset": "CIFAR10",
+  "split": "train",
+  "num_samples": 1000,
+  "responses": [
+    {
+      "question": "What is the main object in this image?",
+      "template": "The main object in this image is a {class_name}."
+    },
+    {
+      "question": "What colors can you see in this image?",
+      "template": "The {class_name} has typical colors for its class."
+    },
+    {
+      "question": "Is this a natural or man-made object?",
+      "template": "The {class_name} is a {object_type}."
+    },
+    {
+      "question": "Describe this image in detail.",
+      "template": "This image shows a {class_name}."
+    },
+    {
+      "question": "What is the background of this image?",
+      "template": "The background of this image is typical for a {class_name}."
+    }
+  ],
+  "class_info": {
+    "airplane": {
+      "object_type": "man-made object",
+      "description": "An aircraft designed for flight"
+    },
+    "automobile": {
+      "object_type": "man-made object",
+      "description": "A four-wheeled motor vehicle"
+    },
+    "bird": {
+      "object_type": "natural living creature",
+      "description": "A warm-blooded egg-laying vertebrate with feathers"
+    },
+    "cat": {
+      "object_type": "natural living creature",
+      "description": "A small domesticated carnivorous mammal"
+    },
+    "deer": {
+      "object_type": "natural living creature",
+      "description": "A hoofed ruminant mammal with antlers"
+    },
+    "dog": {
+      "object_type": "natural living creature",
+      "description": "A domesticated carnivorous mammal"
+    },
+    "frog": {
+      "object_type": "natural living creature",
+      "description": "A tailless amphibian with a short body and webbed feet"
+    },
+    "horse": {
+      "object_type": "natural living creature",
+      "description": "A large domesticated mammal used for riding and pulling"
+    },
+    "ship": {
+      "object_type": "man-made object",
+      "description": "A large vessel for transporting passengers or cargo by sea"
+    },
+    "truck": {
+      "object_type": "man-made object",
+      "description": "A large motor vehicle designed to transport cargo"
+    }
+  }
+} 
